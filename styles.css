@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.intro-section {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 5px black;
+
+    background-color: hsl(0, 0%, 100%);
+
+    min-height: 250px;
+    
+    padding: 20px;
+
+    border-radius: 10px;
+    
+}
+
+.card-icon {
+    margin-top: auto;
+    align-self: flex-end;
+
+}
+
+.cards-section, .middle-column {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* Typography */
+
+
+.intro-section h1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.intro-section h1 span {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.intro-section p {
+    
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+   
+}
+
+.card h3 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.card p {
+    color: hsl(234, 12%, 34%);
+}
